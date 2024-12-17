@@ -1,10 +1,14 @@
 package tapiwa.com;
 
+import java.util.Scanner;
+
 public class Palidrome {
 
 	public static void main(String[] args)
 	{
-		String str = "Madaam";
+		System.out.println("Enter word: ");
+		Scanner sc = new Scanner(System.in);
+		String str = sc.next();
 		System.out.printf("isPsalidrome(%s): %b", str, isPalindrome(str));
 	}
 	
